@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  text-align: center;
+  margin-top: 15px;
+  font-size: 40px;
+}
+.box{
+  width: 600px;
+  height: 100%;
+  margin: 15px auto;
+  background-color: #f6eec7;
+  border-radius: 10px;
+  text-align: center;
+}
+#random-number{
+  border: none;
+}
+#random-number, #enter-number{
+  width: 200px;
+  height: 150px;
+  margin: 20px auto;
+  font-size: 70px;
+  text-align: center;
+  border-radius: 5px;
+  background-color: inherit;
+}
+.hidden{
+  opacity: 0;
+}
+#check{
+  width: 200px;
+  height: 50px;
+  font-size: 20px;
+  margin: 0 auto;
+}
+#result{
+  margin: 50px auto;
+  font-size: 45px;
+  font-weight: bold;
+}
+input{
+  outline: none;
+}
